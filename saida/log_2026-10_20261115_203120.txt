@@ -1,0 +1,25 @@
+2026-11-15 20:31:20 | INFO    | === Início | competência 2026-10 | entrada: C:\Users\Particular\Downloads\consolidacao_extratos_goener\consolidador\entrada
+2026-11-15 20:31:20 | INFO    | Leitura de imagens: Gemini (gemini-2.5-flash)
+2026-11-15 20:31:20 | INFO    | 17 arquivo(s) encontrado(s).
+2026-11-15 20:32:37 | INFO    | app_ipe_amarelo_1011.png               Imagem  OK     imagem_ia (gemini-2.5-flash) saldo   R$ 271.350,74 | Dupla leitura não realizada (Tesseract não instalado).
+2026-11-15 20:32:37 | INFO    | app_riacho_fundo_1011.png              Imagem  OK     imagem_ia (gemini-2.5-flash) saldo   R$ 387.257,55 | Dupla leitura não realizada (Tesseract não instalado).
+2026-11-15 20:32:37 | INFO    | app_umburana_1011.png                  Imagem  OK     imagem_ia (gemini-2.5-flash) saldo   R$ 497.889,23 | Dupla leitura não realizada (Tesseract não instalado).
+2026-11-15 20:32:37 | ERROR   | aviso_agencia_horizonte.pdf            PDF     FALHOU                            saldo               — | Não processado: PDF não contém extrato (sem saldo final nem resumo do período).
+2026-11-15 20:32:37 | INFO    | cajueiro_solar_extrato_10-2026.xlsx    Excel   OK     excel_extrato              saldo   R$ 175.138,64 | Saldo ficou negativo durante o mês (mínimo -R$ 46.643,80 em 05/10).
+2026-11-15 20:32:37 | INFO    | captura_facheiro_out.png               Imagem  OK     imagem_ia (gemini-2.5-flash) saldo   R$ 475.966,91 | Dupla leitura não realizada (Tesseract não instalado).
+2026-11-15 20:32:37 | INFO    | CARNAUBA_I_outubro.pdf                 PDF     OK     pdf_cd                     saldo   R$ 298.409,32 
+2026-11-15 20:32:37 | INFO    | EXT_102026_LagoaAzul.pdf               PDF     OK     pdf_resumo                 saldo   R$ 308.924,49 | Lançamento repetido 2x em 26/10: PIX RECEBIDO - CONDOMÍNIO ED. JANGADA R$ 5.830,06 (conta fecha; confirmar se não é duplicidade do banco).
+2026-11-15 20:32:37 | INFO    | EXT_CHAPADA_VERDE_102026.pdf           PDF     OK     pdf_resumo                 saldo   R$ 397.981,91 
+2026-11-15 20:32:37 | INFO    | extrato_barauna_ii_out2026.pdf         PDF     OK     pdf_cd                     saldo   R$ 386.502,31 
+2026-11-15 20:32:37 | INFO    | extrato_mororo_iii_10-2026.xlsx        Excel   OK     excel_extrato              saldo   R$ 435.596,81 
+2026-11-15 20:32:37 | WARNING | extrato_sol_do_sertao_I_out2026.pdf    PDF     REVISAR pdf_cd                     saldo   R$ 457.179,12 | Saldo final declarado (R$ 457.179,12) difere do calculado pelo saldo inicial + lançamentos (R$ 456.099,12); diferença R$ 1.080,00. | O saldo após o último lançamento (R$ 456.099,12) confirma o valor calculado; a divergência está na linha de saldo final do extrato.
+2026-11-15 20:32:37 | INFO    | JANDAIRA_extrato_outubro.xlsx          Excel   OK     excel_dados_controle       saldo   R$ 276.394,02 
+2026-11-15 20:32:37 | INFO    | JATOBA_II_extrato_outubro.xlsx         Excel   OK     excel_dados_controle       saldo   R$ 285.950,28 
+2026-11-15 20:32:37 | INFO    | pau_ferro_out26.xlsx                   Excel   OK     excel_extrato              saldo   R$ 225.934,57 
+2026-11-15 20:32:37 | WARNING | print_serra_dourada_II.png             Imagem  REVISAR imagem_ia (gemini-2.5-flash) saldo   R$ 243.032,29 | Período 2026-09 diferente da competência 2026-10. | Dupla leitura não realizada (Tesseract não instalado).
+2026-11-15 20:32:37 | WARNING | EXT_102026_LagoaAzul (1).pdf           PDF     REVISAR pdf_resumo                 saldo   R$ 308.924,49 | Arquivo duplicado de 'EXT_102026_LagoaAzul.pdf' (conteúdo idêntico); não somar duas vezes. | Lançamento repetido 2x em 26/10: PIX RECEBIDO - CONDOMÍNIO ED. JANGADA R$ 5.830,06 (conta fecha; confirmar se não é duplicidade do banco).
+2026-11-15 20:32:37 | INFO    | === Resumo: 17 arquivos | ok 13 | revisar 3 | falhou 1
+2026-11-15 20:32:37 | INFO    | Soma dos saldos com status ok: R$ 4.423.296,78 (arquivos em revisar ficam fora até a conferência)
+2026-11-15 20:32:37 | INFO    | Planilha: C:\Users\Particular\Downloads\consolidacao_extratos_goener\consolidador\saida\consolidado_extratos_2026-10.xlsx
+2026-11-15 20:32:37 | INFO    | Log: C:\Users\Particular\Downloads\consolidacao_extratos_goener\consolidador\saida\log_2026-10_20261115_203120.txt
+2026-11-15 20:32:37 | INFO    | === Fim em 76.9 s
